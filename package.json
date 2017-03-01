@@ -1,0 +1,29 @@
+{
+  "name": "quickcheck-patterns-in-javascript",
+  "version": "0.1.0",
+  "description": "Patterns in Quickcheck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbelmont/quickcheck-patterns-in-javascript.git"
+  },
+  "keywords": [
+    "QuickCheck",
+    "Property",
+    "Based",
+    "Testing"
+  ],
+  "author": "Jean-Marcel Belmont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbelmont/quickcheck-patterns-in-javascript/issues"
+  },
+  "homepage": "https://github.com/jbelmont/quickcheck-patterns-in-javascript#readme",
+  "devDependencies": {
+    "tapjs": "^1.0.7",
+    "testcheck": "^0.1.4"
+  }
+}
