@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jbelmont/quickcheck-patterns-in-javascript#readme",
   "devDependencies": {
-    "tapjs": "^1.0.7",
+    "ava": "^0.18.2",
     "testcheck": "^0.1.4"
   }
 }
