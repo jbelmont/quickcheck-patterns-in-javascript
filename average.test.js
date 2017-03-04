@@ -9,6 +9,7 @@ test('unit test the average function like usual', t => {
 
 test('use property based testing to test average function', () => {
     jsc.assert(jsc.forall(jsc.integer(), (numbers) => {
+        console.log(numbers);
         if (numbers === 0) {
             return 0;
         }
