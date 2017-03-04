@@ -8,10 +8,10 @@ test('unit test the average function like usual', t => {
 });
 
 test('use property based testing to test average function', () => {
-    jsc.assert(jsc.forall(jsc.array(), (numbers) => {
-        if (numbers.length === 0) {
+    jsc.assert(jsc.forall(jsc.integer(), (numbers) => {
+        if (numbers === 0) {
             return 0;
-        } 
-        return numbers.reduce((prev, curr) => prev + curr, 0);
+        }
+        return average([numbers]);
     }));
 });
